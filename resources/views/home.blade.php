@@ -14,10 +14,13 @@
     </div>
 
     <div>
-        @dump($movies)
         <ul>
             @foreach($movies as $movie)
-            <li>{{$movie->title}}</li>
+            <li>
+                <div class="card">
+                    <div class="title">{{$movie->title}}</div>
+                </div>
+            </li>
             @endforeach
         </ul>
     </div>
