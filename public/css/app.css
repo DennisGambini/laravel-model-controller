@@ -18601,3 +18601,47 @@ readers do not read off random characters that represent icons */
   content: "\F63F";
 }
 
+h1 {
+  text-align: center;
+  color: darkred;
+  margin-bottom: 70px;
+}
+
+section {
+  padding: 0 50px 100px 50px;
+}
+
+section h2 {
+  margin-bottom: 40px;
+  color: red;
+  text-align: center;
+}
+
+section .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+section .row .card {
+  flex-basis: calc((100% - 200px) / 5);
+  text-align: center;
+  border: 1px solid black;
+}
+
+section .row .card .red-text {
+  color: red;
+  font-size: 1.2rem;
+}
+
+section .row .card .black-text {
+  color: black;
+  font-size: 1.1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+

@@ -1,0 +1,32 @@
+
+h1{
+    text-align: center;
+    color: darkred;
+    margin-bottom: 70px;
+}
+section{
+    padding: 0 50px 100px 50px;
+    h2{
+        margin-bottom: 40px;
+        color: red;
+        text-align: center;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        .card{
+            flex-basis: calc((100% - 200px) / 5);
+            text-align: center;
+            border: 1px solid black;
+            .red-text{
+                color: red;
+                font-size: 1.2rem;
+            }
+            .black-text{
+                color: black;
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
